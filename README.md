@@ -1,7 +1,7 @@
 # nodeAppDemo
 
 1.	Seed data tot database 
-mongoimport --db demodb --collection users --drop --file ./data/sample.json
+mongoimport --db demodb --collection users --drop --file ./seed/sample.json
 
 2. Packages used:
   - body-parser
